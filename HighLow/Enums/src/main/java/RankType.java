@@ -1,4 +1,4 @@
-public enum RankType {
+enum RankType {
 
     ACE(1, "Ace"),
     TWO(2, "One"),
@@ -14,20 +14,20 @@ public enum RankType {
     QUEEN(10, "Queen"),
     KING(10, "King");
 
-   private final int value;
-   private final String name;
+    private final int value;
+    private final String name;
 
-   RankType(int value, String name){
-       this.value =  value;
-       this.name = name;
-   }
+    RankType(int value, String name){
+        this.value =  value;
+        this.name = name;
+    }
 
     public int getValue() {
         return value;
     }
 
     public String getName(){
-       return name;
+        return name;
     }
 }
 

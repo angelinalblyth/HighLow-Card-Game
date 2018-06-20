@@ -25,4 +25,5 @@ public class Card {
     public String niceName(){
         return this.rank.getName() + " of " + this.suit;
     }
+
 }
